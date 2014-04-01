@@ -19,7 +19,10 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
-
+- (IBAction)clickTheButton:(id)sender
+{
+    NSLog(@"This is a Git tutorial");
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
